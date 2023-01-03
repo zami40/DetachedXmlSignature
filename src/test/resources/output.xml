@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+    <SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+        <SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/>
+        <Reference URI="F:/Zami/xml-digital-signature-java/src/test/resources/Sample.xml">
+            <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/>
+            <DigestValue>cE0Cay098fYCd0ZQMFgc+HOImhOKV31xbdx+UB6U7S3n29tL4SxcMLOzd2eszj6yxU57kGzabGMp4ofOFJMLyw==</DigestValue>
+        </Reference></SignedInfo>
+    <SignatureValue>hpufrirhBzxQOcNxFAABJvgcoPMeEZFKDtk/rHY2L3pumkUI305QxikFpTLlgFVnDNhzZOVCcAdHkY59vJ4fp8RRAblWytoZrK2VqNGxi/3OSYsz4BjxdHBFTzbOPSG4Xd5131rnyLXh4mFquI10Bckofl9LmH/dDLwIe1/hXxc+I7mf0YN0VhKa/e2YazPzvs+ZzqsLR3HaFNXdOEzuG1QBVeBhrLoE5DFT/TvS+nNhTrzPUXEKgNWeRISbBLogvOOP9wYwflCTx7HyPemBtH/2iN/qkqC4MCZnPztB7D1gE982QdW9kXahqr/trG4RAdFRjkVmjc/duJqznfAZWQ==</SignatureValue>
+    <KeyInfo>
+        <KeyValue>
+            <RSAKeyValue>
+                <Modulus>mHnyvI8X0baxa1iaGW+R18cBu0/f5uZfdIZ/IXNR/fGMIQyucej6im5FMILXG8fRn2veidVQj29eCSM8C5kB0qmgcBm71/UG5oIaWrYISY6JQ16KxHpGXHdjOq0BN8rijag6aQhj3pjaCz0Nzj1SfW02lJFiMJG86rH5K4mQaR5qUrURLegNlMyjDG3PYSBvOTDl2+vwbvahk5i66bdggJjALart8U/im1c7hXscJcPcGs3j6OfU+NZgXJU9z4kKEzI6TAiHNwe9s8A0jgIH8r33re3b2A/hieoL0ja3wI53DapOEUcXDJXU22cuSkOgxgCkD3q1TVp271wHMgV0GQ==</Modulus>
+                <Exponent>AQAB</Exponent>
+            </RSAKeyValue>
+        </KeyValue>
+    </KeyInfo>
+</Signature>
